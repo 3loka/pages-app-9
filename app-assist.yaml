@@ -1,0 +1,7 @@
+version: v1
+type: layer
+name: Deploys a Node app on Github Pages
+configuration:
+  topics: ["pages", "node"]
+  workflow: "github-pages-layer.yaml"
+  ouptut-file: "output.md"
